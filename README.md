@@ -1,4 +1,4 @@
-# hello_world
+# merhaba_kodlama
 
 
 """İSİMİ SATIR ATLAYA ATLAYA KELİME OLARAK TERSDEN YAZAN KOD"""
