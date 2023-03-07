@@ -385,3 +385,203 @@ print(cift)
 print(tek)
 
 -BiTtİ-
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+:root{
+    --red-color:red;
+    --white-color:white;
+    --border-: 0.1rem solid red;
+    --border: 0.1rem solid white;
+
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 9 rem;
+    scroll-behavior: smooth;
+}
+*{
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+/*birini bölümün başlangıcı*/
+section{
+    padding: 7rem 7%;
+}
+.header{
+    min-height: 100vh;
+    background: url(image/TacirlerBlueRed.png) no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    padding: 0.5rem;
+}
+.header1 h5{
+    color:red;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 1rem 5%;
+}
+.header1 span{
+    color: white;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+}
+.header2 .navbar a{
+    margin: 0 1rem;
+    font-size: 1rem;
+    color: var(--white-color);
+    border-bottom: 0.1rem solid var(--red-color);
+
+}
+.header2 .navbar .active,
+.header2 .navbar a:hover {
+    border-color: var(--white-color);
+    padding-bottom: 0.5rem;
+}
+.header .btn{
+    color: white;
+    font-size: 1.4rem;
+    border: 0.1rem solid var(--red-color);
+    padding: 0.5rem;
+}
+.logo img{
+    height: 2rem;
+    padding-right: 1rem;
+    padding-top: 3%; 
+}
+.logo1 img{
+    height: 3rem;
+}
+.logo2 img{
+    height: 5.5rem;
+    /*css box shadow generator*/
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.200);
+}
+.home{
+    color: white;
+    align-items: center;
+}
+.home .content{
+    max-width: 60rem;
+}
+.home .content h1{
+    font-size: 6rem;
+    font-weight: 600;
+    color: rgba(240, 248, 255, 0.411);
+}
+.home .content h2{
+    font-size: 6rem;
+    font-weight: 600;
+}
+.home .content h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.home .content p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 2rem 0;
+}
+.home .content h4{
+    font-size: 1.4rem;
+    padding: 2rem 0;
+    color: aliceblue;
+}
+/*birinci bölümün bitişi*/
+/*ikinci bölümün başlangıcı*/
+.box-container{
+    background: url(image/Group241.png) no-repeat;
+    background-size: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FİRMA WEB SİTE</title>
+    <link rel="stylesheet" href="styles 0555.css">
+</head>
+<body>
+    <!--Birici bölümün başlangıcı-->
+    <header class="header">
+        <header class="header1">
+            <h5>TR <span>EN</span></h5>
+            <a href="#" class="logo">
+                <img src="C:\Users\PC\Desktop\image\facebook1.png" alt="logo">
+                <img src="C:\Users\PC\Desktop\image\instagram1.png" alt="logo">
+                <img src="C:\Users\PC\Desktop\image\twitterq.png" alt="logo">
+                <img src="C:\Users\PC\Desktop\image\youtube1.png" alt="logo">
+                <img src="C:\Users\PC\Desktop\image\linkedin1.png" alt="logo">
+            </a>
+        </header>
+        <header class="header2">
+            <a href="#" class="logo1">
+                <img src="C:\Users\PC\Desktop\image\logo.png" alt="logo">
+            </a>
+            <nav class="navbar">
+                <a href="#">Anasayfa</a>
+                <a href="#">Kurumsal</a>
+                <a href="#">Hizmetlerimiz</a>
+                <a href="#">Acenteler</a>
+                <a href="#">Haberler</a>
+                <a href="#">İletişim</a>
+            </nav>
+             <a href="#" class="logo2">
+                <img src="C:\Users\PC\Desktop\image\button.png" alt="logo">
+            </a>
+        </header>
+        <section class="home">
+            <div class="content">
+                <h1>01</h1>
+                <h2>GÜVEN <br> TAŞIYORUZ!</h2>
+                <h3>PROFESYONEL ORGANİZASYON İLKEMİZ İLE</h3>
+                <p>Profesyonel hizmet anlayışımız ile sektörde lider konumuna gelmeyi hedefleyen <br> vizyonumuzda sizlere soluksuz hizmet sağlıyoruz. Güveniniz için Teşekkürler!</P>
+            </div>
+        <a href="#" class="btn">KURUMSAL  >></a>
+        </section>
+    </header>
+    <!--Birinci bölüm bitişi-->
+    <!--İkinci bölümün başlangıcı-->
+    <section>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="C:\Users\PC\Desktop\image\hizmet1.png" alt="HİZMETLERİMİZ">
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="C:\Users\PC\Desktop\image\hizmet2.png" alt="HİZMETLERİMİZ">
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="C:\Users\PC\Desktop\image\hizmet3.png" alt="HİZMETLERİMİZ">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
