@@ -820,3 +820,102 @@ section{
 .box-container a .btn{
     color: red;
 }
+
+
+
+
+
+
+
+<section class="bölümüç">
+        <h3>NELER YAPIYORUZ</h3>
+        <h1>HİZMETLERİMİZ</h1>
+        <h6>Tacirler Nakliyat ve Taahhüt ve Tic. Ltd. Ştd. Türkiye standartlarında yürüttüğü Nakliyathizmet sektöründe Taşımacılıkts üztün hizmet anlayışı ve güven ilkesi ile</h6>
+        <div class="box-container1">
+            <div class="box1">
+                <div class="image1">
+                    <img src="C:\Users\PC\Desktop\image\harita.png" alt="harita"> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+.bölümüç{         
+    height: 1000px;     
+    background-image: url("image/lines-background-abstract-line-striped-pattern-curve-neon-element-dynamic-backdrop-presentation-cover-gold-color.png");      
+    position: relative;
+    bottom: 40px; 
+}
+
+.bölümüç h3{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.bölümüç h1{
+    color: black;
+}
+.bölümüç h6{
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 2;
+    padding-bottom: 2rem;
+}
+.image1 img{
+    width: 831px;
+    height: 337px;
+    float: left;
+    display: block;
+}
+
+
+
+
+
+<div class="box-container1">
+        <div class="box1">
+            <section>
+                <div class="box-head1">
+                    <img src="C:\Users\PC\Desktop\image\harita.png" alt="harita"> 
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    
+.box-container1{         
+    height: 1000px;     
+    background-image: url("image/lines-background-abstract-line-striped-pattern-curve-neon-element-dynamic-backdrop-presentation-cover-gold-color.png");      
+    position: relative;
+    bottom: 40px; 
+}
+.box-container1 h3{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.box-container1 h1{
+    color: black;
+}
+.box-container1 h6{
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 2;
+    padding-bottom: 2rem;
+}
+.box-head1 img{
+    width: 831px;
+    height: 337px;
+    float: left;
+    display: block;
+}    
+
+
+
