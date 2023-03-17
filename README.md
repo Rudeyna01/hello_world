@@ -1990,3 +1990,48 @@ section{
 
 
 
+Web Site İçin Bilinmesi Gerekenler
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!--Birici bölümün başlangıcı-->
+    <header id="btn3" class="header">
+        <header class="header1">
+            <h5>TR <span> EN </span> </h5>
+            <a href="#" class="logo">
+                <img src="C:\Users\PC\Desktop\image\facebook1.png" alt="logo">
+                <img src="C:\Users\PC\Desktop\image\instagram1.png" alt="logo">
+                <img src="C:\Users\PC\Desktop\image\twitterq.png" alt="logo">
+                <img src="C:\Users\PC\Desktop\image\youtube1.png" alt="logo">
+                <img src="C:\Users\PC\Desktop\image\linkedin1.png" alt="logo">
+            </a>
+        </header>
+        <header class="header2">
+            <a href="#" class="logo1">
+                <img src="C:\Users\PC\Desktop\image\logo.png" alt="logo">
+            </a>
+            <nav class="navbar">
+                <a href="#">Anasayfa</a>
+                <a href="#">Kurumsal</a>
+                <a href="#">Hizmetlerimiz</a>
+                <a href="#">Acenteler</a>
+                <a href="#">Haberler</a>
+                <a href="#">İletişim</a>
+            </nav>
+             <a href="#" class="logo2">
+                <img src="C:\Users\PC\Desktop\image\button.png" alt="logo">
+            </a>
+        </header>
+        <section class="home">
+            <div class="content">
+                <h1>01</h1>
+                <h2>GÜVEN <br> TAŞIYORUZ!</h2>
+                <h3>PROFESYONEL ORGANİZASYON İLKEMİZ İLE</h3>
+                <p>Profesyonel hizmet anlayışımız ile sektörde lider konumuna gelmeyi hedefleyen <br> vizyonumuzda sizlere soluksuz hizmet sağlıyoruz. Güveniniz için Teşekkürler!</P>
+            </div>
+        <a href="#" class="btn">KURUMSAL  >></a>
+        </section>
+    </header>
+    <!--Birinci bölüm bitişi-->
